@@ -1,35 +1,27 @@
 package com.furmi;
 
+import java.util.Arrays;
+
 public class PlusOne {
     public static void main(String[] args) {
-        System.out.println(stringContainsVowels("Hello"));
-        System.out.println(stringContainsVowels("tv"));
-        System.out.println("palindrome  kajaka " + palindrome("kajaka"));
-        System.out.println(isPalindromeString("121211"));
+        int[] ar = {7, 2, 8, 5, 0, 9, 1, 2, 9, 5, 3, 6, 6, 7, 3, 2, 8, 4, 3, 7, 9, 5, 7, 7, 4, 7, 4, 9, 4, 7, 0, 1, 1, 1, 7, 4, 0, 0, 6};
+        System.out.println(Arrays.toString(plusOne(ar)));
     }
-    public static boolean stringContainsVowels(String input) {
-        return input.toLowerCase().matches(".*[aeiou].*");
-    }
-    public static boolean palindrome (String str){
 
-        int len = str.length();
-        for (int i = 0; i < len / 2; i++){
-            if (str.charAt(i) != str.charAt(len - i - 1)){
-                return false;
+    public static int[] plusOne(int[] digits) {
+        for (int i = digits.length - 1; i >= 0; i--) {
+            if (digits[i] != 9) {
+                digits[i]++;
+                break;
+            } else {
+                digits[i] = 0;
             }
         }
-        return true;
-    }
-    private static boolean isPalindromeString(String str) {
-        if (str == null)
-            return false;
-        int length = str.length();
-        System.out.println(length / 2);
-        for (int i = 0; i < length / 2; i++) {
-            if (str.charAt(i) != str.charAt(length - i - 1))
-                return false;
+        if (digits[0] == 0) {
+            int[] result = new int[digits.length + 1];
+            result[0] = 1;
+            return result;
         }
-        return true;
+        return digits;
     }
-
 }
