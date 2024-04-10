@@ -3,7 +3,9 @@ package com.furmi;
 public class ReverseInteger {
     public static void main(String[] args) {
         System.out.println(reverseInt(-123));
-
+        String s1 = new String("digitalocean");
+        String s2 = new String("DIGITALOCEAN");
+        System.out.println(s1.equals(s2));
     }
 
     public static int reverseInt(int x) {
