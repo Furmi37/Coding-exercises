@@ -5,8 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Testing_1_2_3 {
-
-
     public static List<String> number(List<String> lines) {
         String[] result = new String[lines.size()];
         for (int i = 0; i < lines.size(); i++) {

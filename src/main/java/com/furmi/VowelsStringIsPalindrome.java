@@ -4,7 +4,7 @@ public class VowelsStringIsPalindrome {
     public static void main(String[] args) {
         System.out.println(stringContainsVowels("Hello"));
         System.out.println(stringContainsVowels("tv"));
-        System.out.println("palindrome  kajaka " + palindrome("kajaka"));
+        System.out.println("palindrome kajaka" + palindrome("kajaka"));
         System.out.println(isPalindromeString("121211"));
     }
     public static boolean stringContainsVowels(String input) {
