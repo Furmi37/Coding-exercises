@@ -12,4 +12,12 @@ public class SQLquerries {
     GROUP BY b.book_id ORDER BY b.book_id DESC;
 
     */
+
+    /* Q Sum of triangular numbers
+    SELECT n, CASE                                  --Case much like a Switch Statement in other languages
+            WHEN n > 0 THEN ((n*(n+1)*(n+2))/6) --Sum of Triangular Numbers Equation
+            ELSE 0                              --Constraint for Negative Numbers
+          END AS res                            --Casting to Column res
+       FROM sumtriangular;
+     */
 }
