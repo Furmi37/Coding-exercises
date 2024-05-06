@@ -5,7 +5,6 @@ public class JavaIfElse {
     public static void main(String[] args) {
         System.out.println(ifElse(4));
     }
-
     public static String ifElse(int n) {
         if (n % 2 != 0) {
             return "Weird";
