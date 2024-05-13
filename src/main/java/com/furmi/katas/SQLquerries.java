@@ -20,4 +20,14 @@ public class SQLquerries {
           END AS res                            --Casting to Column res
        FROM sumtriangular;
      */
+
+    /*
+
+   STRANGE PRINCIPAL
+
+   SELECT
+    n,
+    floor(sqrt(n))::int as res
+    FROM numofopenlockers;
+     */
 }
