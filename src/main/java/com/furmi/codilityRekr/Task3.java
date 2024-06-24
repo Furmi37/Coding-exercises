@@ -30,7 +30,7 @@ public class Task3 {
         int letterN = numbersOfN/2;
         int res = 0;
 
-        while(numbersOfB > 0){
+        while(letterB > 0){
             if (letterA > 0 && letterN >0){
                 res++;
                 letterB -= 1;
