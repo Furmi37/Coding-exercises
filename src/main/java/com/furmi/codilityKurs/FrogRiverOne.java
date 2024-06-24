@@ -1,21 +1,24 @@
-package com.furmi.codility;
+package com.furmi.codilityKurs;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class OddOccurencesInrray {
-
-    public int solution(int[] A) {
+public class FrogRiverOne {
+    public int solution(int X, int[] A) {
         // Implement your solution here
         Set<Integer> set = new HashSet<>();
+        for (int i = 1; i <= X; i++){
+            set.add(i);
+        }
+
         for (int i = 0; i < A.length; i++){
             if (set.contains(A[i])){
                 set.remove(A[i]);
-            }else {
-                set.add(A[i]);
+            }
+            if (set.isEmpty()){
+                return i;
             }
         }
-        Object[] array = set.toArray();
-        return (int)array[0];
+        return -1;
     }
 }

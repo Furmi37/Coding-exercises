@@ -1,4 +1,4 @@
-package com.furmi.codility;
+package com.furmi.codilityKurs;
 
 import java.util.Stack;
 

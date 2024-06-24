@@ -1,6 +1,4 @@
-package com.furmi.codility;
-
-import java.util.Arrays;
+package com.furmi.codilityKurs;
 
 public class MaxSliceSum {
     public int solution(int[] A) {

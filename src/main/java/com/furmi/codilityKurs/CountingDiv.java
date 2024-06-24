@@ -1,4 +1,4 @@
-package com.furmi.codility;
+package com.furmi.codilityKurs;
 
 public class CountingDiv {
     public int solution(int A, int B, int K) {

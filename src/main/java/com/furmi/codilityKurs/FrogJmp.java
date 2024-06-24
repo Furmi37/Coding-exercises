@@ -1,4 +1,4 @@
-package com.furmi.codility;
+package com.furmi.codilityKurs;
 
 public class FrogJmp {
     public static void main(String[] args) {

@@ -1,7 +1,5 @@
-package com.furmi.codility;
+package com.furmi.codilityKurs;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 public class Nesting {
