@@ -1,4 +1,4 @@
-package com.furmi.codilityRekr;
+package com.furmi.codilityFirstRekrMot;
 
 public class Task3 {
     public static void main(String[] args) {
