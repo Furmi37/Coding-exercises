@@ -15,5 +15,6 @@ public class SentenceSmash {
             result += " " + words[i];
         }
         return result;
+//        return String.join(" ", words);
     }
 }
