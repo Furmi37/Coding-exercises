@@ -12,7 +12,7 @@ public class CyclicRotation {
         // Implement your solution here
         int []res = new int[A.length];
         int length = A.length;
-        K = K % length;
+
 
         if (length == 0){
             return res;
