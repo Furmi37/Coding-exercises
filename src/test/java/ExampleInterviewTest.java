@@ -4,14 +4,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ExampleInterviewTest {
 
-    private ExampleInterview moto = new ExampleInterview();
+    private ExampleInterview example = new ExampleInterview();
     @Test
     void shouldReturnStringWithoutVowels (){
         //given
         String s = "mateusz";
         String expected = "mtusz";
         //when
-        String result = moto.noVowels(s);
+        String result = example.noVowels(s);
         //then
         assertEquals(expected,result);
     }
